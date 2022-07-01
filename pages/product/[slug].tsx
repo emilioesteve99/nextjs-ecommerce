@@ -1,3 +1,5 @@
+import { ProductHttpService } from "../../services/ProductHttp.service";
+
 type ProductPagePropsType = {
 	product: {
 		id: number;
