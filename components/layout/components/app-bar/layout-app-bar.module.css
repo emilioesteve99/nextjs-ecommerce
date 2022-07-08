@@ -1,0 +1,23 @@
+.layout_appbar {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.layout_appbar>* {
+    align-items: center;
+}
+
+.layout_appbar_left {
+    margin-left: 5%;
+    display: flex;
+    gap: 75px;
+    justify-content: space-evenly;
+}
+
+.layout_appbar_right {
+    margin-right: 5%;
+    display: flex;
+    gap: 75px;
+    justify-content: space-evenly;
+}

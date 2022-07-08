@@ -1,28 +1,13 @@
 import type { NextPage } from 'next';
-import Link from 'next/link';
+import IndexSliderComponent from '../components/index/slider/index-slider-component';
+import LayoutComponent from '../components/layout/layout.component';
 
 const Home: NextPage = () => {
-  return <div>
-    <Link href={'/login'}>
-      <a>LOGIN</a>
-    </Link>
-    <br />
-    <Link href={'/category'}>
-      <a>CATEGORY</a>
-    </Link>
-    <br />
-    <Link href={'/product/1-2-asdff'}>
-      <a>PRODUCT</a>
-    </Link>
-    <br />
-    <Link href={'/cart'}>
-      <a>CART</a>
-    </Link>
-    <br />
-    <Link href={'/checkout'}>
-      <a>CHECKOUT</a>
-    </Link>
-  </div>;
+  return (
+    <LayoutComponent>
+      <IndexSliderComponent />
+    </LayoutComponent>
+  )
 }
 
 export default Home;
