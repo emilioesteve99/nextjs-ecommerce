@@ -9,8 +9,10 @@ export type LayoutComponentPropsType = {
 function LayoutComponent(props: LayoutComponentPropsType) {
     return (
         <>
-            <LayoutAppBarComponent />
-            <LayoutMenuComponent />
+            <div>
+                <LayoutAppBarComponent />
+                <LayoutMenuComponent />
+            </div>
             {props.children}
         </>
     )

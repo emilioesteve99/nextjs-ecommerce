@@ -1,4 +1,7 @@
 .index_slider {
-    width: 100%;
-    height: 100%;
+    display: block;
+}
+
+.index_slider_image {
+    display: block;
 }
